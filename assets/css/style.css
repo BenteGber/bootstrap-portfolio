@@ -1,0 +1,45 @@
+.wrapper {
+    height:99%;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-direction: column;
+}
+
+.body {
+    background-image: url(https://images.pexels.com/photos/1020320/pexels-photo-1020320.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-size:contain;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-content: space-between;
+}
+.header {
+    background: #fff;
+    
+    border:1px dotted black;
+}
+.nav {
+    display:flex;
+    justify-content: flex-end;
+}
+.logo-box h1{
+    margin-left: 25%;
+    padding-left: 15px;
+}
+.nav ul {
+    margin-right:25%;
+    padding-right:15px;
+}
+
+.main-content  {
+    background-color: #fff;
+    max-width: 960px;
+    margin: 15px 13%;
+    border:1px dotted black;
+   
+}
+.footer {
+    border:1px dotted black;
+}
