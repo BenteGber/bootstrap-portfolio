@@ -7,9 +7,9 @@
 }
 
 .body {
-    background-image: url(https://images.pexels.com/photos/1020320/pexels-photo-1020320.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-image: url(/Users/benjamingreenberg/Desktop/bootcamp/bootstrap-portfolio/assets/images/background3.jpg);
     background-position: center;
-    background-size:contain;
+    background-size:cover;
     width: 100%;
     display:flex;
     justify-content: center;
@@ -31,15 +31,39 @@
 .nav ul {
     margin-right:25%;
     padding-right:15px;
+    align-items: flex-end;
 }
 
 .main-content  {
     background-color: #fff;
     max-width: 960px;
-    margin: 15px 13%;
+    margin: 20px 13%;
     border:1px dotted black;
    
 }
 .footer {
-    border:1px dotted black;
+    border: 1px dotted black;
+    bottom: 0;
+    width: 102%;
+    height: 55px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+}
+
+.contact-form {
+    padding-bottom: 25px;
+}
+.frame span {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    position: relative;
+    bottom: 86px;
+}
+.frame  {
+        max-width:98%%;
+    margin: 10px 0px -38px 15px;
 }
